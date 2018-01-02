@@ -1,53 +1,39 @@
 <html>
 <head> 
-	<style>
-		body {
-			background-color: #eee;
-			font-family: sans-serif;
-		}
-
-		.box {
-			background-color: #fff;
-			border: 2px ridge #ddd;
-			border-radius: 10px;
-			margin: 30px;
-			padding: 20px;
-		}
-		.box.primary {
-			background-color: #F5c6FF;
-			border-color: #8300A0;
-		}
-
-		.attribution {
-			text-align: right; 
-			font-style: italic;
-		}
-		.attribution:before {content:"-";}
-	</style>
+	<link rel="stylesheet" type="text/css" href="../main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|VT323" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<div class="box primary">
-		<h2>DDLC Reference Dump</h2>
+	<div class="bannerbox1" id="ddlc">
+		<span class="bannertext1">
+		<h1>Doki Doki Reference Dump</h1>
 		<p>
 			Assorted information about Doki Doki Literature Club, a dating sim by Dan Salvato. 
 			<br>Images and quotes on these pages are copyright sometime to Dan.
 			<br>This is just a reference dump, to facilitate mods. Mods may go here later.
-		<div class="attribution">Tess</div>
+		<!-- <div class="attribution">Tess</div> -->
 		</p>
+		</span>
 	</div>
-	<div class="box">
-		<h3>Character sprite reference sheets</h3>
+	<div class="contentbox1">
+		<h2>Character sprite reference sheets</h2>
 		<p>
 			<a href="char_images/sayori">Sayori</a>
 			<br>
 			<a href="char_images/natsuki">Natsuki</a>
 		</p>
-		<h3>Character voice reference docs</h3>
+	</div>
+	<div class="contentbox1">
+		<h2>Character voice reference docs</h2>
 		<p>
-			<div class="box primary">
+			<!-- <div class="box primary"> -->
 				Statistical analysis of full text content, with additional qualitative analysis by yours truly. Only up through chapter 1 so far, because I'm lazy.
-				<div class="attribution">Tess</div>
-			</div>
+				<!-- <div class="attribution">Tess</div> -->
+			<!-- </div> -->
+		</p>
+			<div>
+				<p>
 			<a href="char_notes/mc.php">Player Character</a>
 			<br>
 			<a href="char_notes/sayori.php">Sayori</a>
@@ -57,7 +43,8 @@
 			<a href="char_notes/natsuki.php">Natsuki</a>
 			<br>
 			<a href="char_notes/monika.php">Monika</a>
-		</p>
+				</p>
+			</div>
 	</div>
 </body>
 </html>
