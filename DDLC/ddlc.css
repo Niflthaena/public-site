@@ -1,0 +1,23 @@
+
+div.bannerbox1 {
+	background-color: #FFFFFF;
+	background-image: url("ddlc-banner-fg.png"), url("ddlc-banner-bg1.png"), url("ddlc-banner-top.png"), url("ddlc-banner-bottom.png");
+	background-repeat: no-repeat, repeat-x, repeat-x, repeat-x;
+	background-position: right;
+	background-size: contain, contain, cover, cover;
+}
+/*div.contentbox1 {
+	background-repeat: no-repeat;
+	background-size: contain;
+}*/
+/*div.linklist {
+	padding: 0px;
+	margin: 0px;
+}*/
+
+div#img1 {
+	background-image: url("ddlc-content-img1.png");
+}
+div#img2 {
+	background-image: url("ddlc-content-img2.png");
+}

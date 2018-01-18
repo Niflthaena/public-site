@@ -1,6 +1,7 @@
 <html>
 <head> 
 	<link rel="stylesheet" type="text/css" href="../main.css">
+	<link rel="stylesheet" type="text/css" href="ddlc.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|VT323" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -16,7 +17,8 @@
 		</p>
 		</span>
 	</div>
-	<div class="contentbox1">
+	<div class="contentbox1" id="img1">
+<!-- 		<img class="content1" src="ddlc-content-img1.png"> -->
 		<h2>Character sprite reference sheets</h2>
 		<p>
 			<a href="char_images/sayori">Sayori</a>
@@ -24,7 +26,8 @@
 			<a href="char_images/natsuki">Natsuki</a>
 		</p>
 	</div>
-	<div class="contentbox1">
+	<div class="contentbox2" id="img2">
+<!-- 		<img src="ddlc-content-img2.png" class="content2-long"> -->
 		<h2>Character voice reference docs</h2>
 		<p>
 			<!-- <div class="box primary"> -->
@@ -32,8 +35,8 @@
 				<!-- <div class="attribution">Tess</div> -->
 			<!-- </div> -->
 		</p>
-			<div>
-				<p>
+			<!-- <div> -->
+		<p>
 			<a href="char_notes/mc.php">Player Character</a>
 			<br>
 			<a href="char_notes/sayori.php">Sayori</a>
@@ -43,8 +46,8 @@
 			<a href="char_notes/natsuki.php">Natsuki</a>
 			<br>
 			<a href="char_notes/monika.php">Monika</a>
-				</p>
-			</div>
+		</p>
+			<!-- </div> -->
 	</div>
 </body>
 </html>
